@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Real wireless scan data
+data/*.csv
+
+# Generated security reports
+reports/*.csv
+
+# Environment variables and secrets
+.env
