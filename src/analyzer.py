@@ -14,11 +14,11 @@ def classify_security(authentication, encryption):
     if not auth or auth == "NAN":
         return "Unknown", "Unknown", "Authentication information missing"
 
-    if "OPEN" in auth or "NONE" in cipher:
-        return "High", "Open", "No Wi-Fi encryption advertised"
-
     if "WEP" in auth or "WEP" in cipher:
         return "Critical", "WEP", "Outdated and insecure encryption"
+
+    if "OPEN" in auth or "NONE" in cipher:
+        return "High", "Open", "No Wi-Fi encryption advertised"
 
     if "WPA3" in auth:
         return "Low", "WPA3", "Modern wireless security advertised"
