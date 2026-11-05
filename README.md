@@ -2,7 +2,7 @@
 
 
 
-\[!\[Wireless Sentinel Tests](https://github.com/BadassMama/WirelessSentinel/actions/workflows/tests.yml/badge.svg)](https://github.com/BadassMama/WirelessSentinel/actions/workflows/tests.yml)
+\[!\[Wireless Sentinel Tests](https://github.com/BadassMama/WirelessSentinel/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/BadassMama/WirelessSentinel/actions/workflows/tests.yml)
 
 
 
