@@ -1,8 +1,13 @@
 # WirelessSentinel
-Python Wireless Security Analyzer
-Wireless Sentinel
+
+
+
+\[!\[Wireless Sentinel Tests](https://github.com/BadassMama/WirelessSentinel/actions/workflows/tests.yml/badge.svg)](https://github.com/BadassMama/WirelessSentinel/actions/workflows/tests.yml)
+
+
 
 A Python-based wireless network discovery and security analysis tool.
+
 
 
 Overview
@@ -12,6 +17,7 @@ Wireless Sentinel is a cybersecurity portfolio project designed to explore wirel
 The project uses Python and Windows' built-in WLAN utilities to collect information about nearby wireless access points and evaluate their advertised security configurations.
 
 The long-term goal is to develop a wireless security monitoring tool with historical tracking, anomaly detection, and an interactive dashboard.
+
 
 
 Current Features
@@ -29,6 +35,7 @@ Classify WPA2, WPA3, WPA, WEP, and open network configurations.
 Generate CSV-based security reports.
 
 
+
 Technology Stack
 
 Python 3.13
@@ -40,6 +47,7 @@ Windows WLAN utilities (netsh)
 CSV data storage
 
 Streamlit and Plotly (planned dashboard components)
+
 
 
 Planned Features
@@ -71,3 +79,4 @@ Always respect network ownership, privacy, and applicable laws when conducting w
 Project Status
 
 Early development — Phase 1 and Phase 2 completed.
+
