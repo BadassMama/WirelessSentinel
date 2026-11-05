@@ -27,7 +27,16 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install pandas pytest
 
+      - name: Diagnose Python imports
+        run: |
+          pwd
+          ls -la src
+          python -c "import sys; print('\n'.join(sys.path))"
+          python -c "import src; print(src.__file__)"
+          python -c "import src.validator; print(src.validator.__file__)"
+
       - name: Run automated tests
-	env:
-	  PYTHONPATH: ${{ github.workspace }}
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: python -m pytest -v
+
